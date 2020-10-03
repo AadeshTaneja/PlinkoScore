@@ -167,7 +167,7 @@ function draw() {
   }
 
   function  mousePressed(){
-  if(gamestate!=="end "){
+  if(gamestate!=="end"){
     turn++;
     particle = new Particle(mouseX,10,10);
     }
